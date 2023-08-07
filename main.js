@@ -1,0 +1,5 @@
+
+
+    function myFuncion(){
+        alert('hola!')
+    }
