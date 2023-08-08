@@ -4,7 +4,7 @@ function myFuncion(evento) {
     alert('Hola!');
 }
 
-function Div(evento) {
+function div(evento) {
     evento.preventDefault();
     evento.stopPropagation();
     alert('Hola! Soy el div.');
@@ -12,7 +12,7 @@ function Div(evento) {
 
 let elementoDiv = document.getElementById('div1');
 
-elementoDiv.addEventListener('click', Div);
+elementoDiv.addEventListener('click', div);
 
 let boton1 = document.getElementById('boton');
 
