@@ -1,5 +1,0 @@
-
-
-    function myFuncion(){
-        alert('hola!')
-    }
